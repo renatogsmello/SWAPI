@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NaveComponent } from './nave.component';
+import { NaveComponent } from './naves.component';
 
 describe('NaveComponent', () => {
   let component: NaveComponent;
@@ -8,10 +8,9 @@ describe('NaveComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [NaveComponent]
-    })
-    .compileComponents();
-    
+      imports: [NaveComponent],
+    }).compileComponents();
+
     fixture = TestBed.createComponent(NaveComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

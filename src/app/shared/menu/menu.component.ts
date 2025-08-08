@@ -21,8 +21,8 @@ export class MenuComponent {
       route: 'filmes',
     },
     {
-      name: 'Nave',
-      route: 'nave',
+      name: 'Naves',
+      route: 'naves',
     },
   ];
 }
